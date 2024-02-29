@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+.container {
+    margin-top: 30px;
+    width: 383px;
+    height: 611px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+img {
+    margin-top: 39px;
+    margin-bottom: 26px;
+    width: 89px;
+    height: 89px;
+    border-radius: 50px;
+}
+
+.firstname {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.city {
+    font-size: 14px;
+    margin-top: 8px;
+    color:hsl(75, 94%, 57%);
+}
+
+h1 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-top: 14px;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    width: 300px;
+    height: 42px;
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 16px;
+    margin-bottom: 19px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:hsl(0, 0%, 100%)
+}
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 326px;
+    }
+    li {
+        width: 260px;
+    }
+}
